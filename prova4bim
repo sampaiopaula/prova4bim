@@ -1,0 +1,43 @@
+#include <stdio.h>
+ 
+
+int main(){
+ int opcao = -1;
+ int opcao2 = -1;
+ while(opcao!=0){
+     printf("-------------------------");
+     printf("aperte 0 para Desligar\n");
+     printf("aperte 1 para abrir Mensagens\n");
+     printf("aperte 2 para Abrir Historico de ligaçoes\n");
+     printf("aperte 3 para Abrir Agenda/Comtatos\n");
+      printf("aperte 4 para ver Creditos\n");
+       printf("aperte 5 para ver Operadora\n");
+       printf("-------------------------");
+     scanf("%d", &opcao);
+     
+     if(opcao == 1){
+         printf("Mensagens\n");
+         printf("Aperte 0 para Voltar a menu principal\n");
+         scanf("%d",&opcao2);
+     }else if (opcao == 2){
+         printf("Historico De ligações\n");
+         printf("Aperte 0 para Voltar a menu principal\n");
+         scanf("%d",&opcao2);
+     }else if (opcao == 3){
+         printf("Agenda/Contatos\n");
+         printf("Aperte 0 para Voltar a menu principal\n");
+         scanf("%d",&opcao2);
+     }else if (opcao == 4){
+         printf("Creditos\n");
+         printf("Aperte 0 para Voltar a menu principal\n");
+         scanf("%d",&opcao2);
+         
+     }else if (opcao == 5){
+         printf("Operadora\n");
+          printf("Operadora TIM(44)\n");
+         printf("Aperte 0 para Voltar a menu principal\n");
+         scanf("%d",&opcao2);}
+}
+
+    return 0;
+}
